@@ -114,10 +114,14 @@ img {
   grid-auto-flow: dense;
 }
 
-.gallery-img {
+.gallery-item {
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+.gallery-img {
+  height: 100%
   object-fit: cover;
   transition: 0.5s ease-in-out;
 }
